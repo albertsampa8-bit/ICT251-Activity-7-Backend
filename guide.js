@@ -50,7 +50,7 @@ function renderGuide(baseUrl) {
 <main>
   <h1>${esc(PROJECT_NAME)} API</h1>
   <p>Project: <strong>${esc(PROJECT_NAME)}</strong> &middot; Student number: <strong>${esc(STUDENT_NUMBER)}</strong></p>
-  <p>This backend stores IT support requests (network, software, hardware, printing and account problems) and lets any client read, create, update and delete them using JSON. All records are made up.</p>
+  <p>This backend stores IT support requests (network, software, hardware, printing and account problems) and lets any client read, create, update and delete them using JSON.</p>
 
   <div class="box">
     <p><strong>Live API base URL:</strong> <code>${base}</code></p>
